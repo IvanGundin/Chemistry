@@ -307,6 +307,6 @@ a,u {
 		/* left: calc(var(--index) / 1); */
 		/* width: 334px; */
 		width: calc(var(--index) * 30);
-		top: 300px;
+		top: 20px;
 	  }
 }
