@@ -308,6 +308,7 @@ a,u {
 	.main-article__header__img {
 		display: initial;
 		position: absolute;
+		overflow: hidden;
 		left: 60px;
 		/* left: calc(var(--index) / 1); */
 		/* width: 334px; */
