@@ -121,13 +121,7 @@ a,u {
 .content {
 	will-change: transform;
 }
-.copy {
-	position: absolute;
-	bottom: calc(var(--index) * 2.5);
-	opacity: .45;
-	font-size: calc(var(--index) * .75);
-	letter-spacing: calc(var(--index) / 37.5);
-}
+
 .nav__header {
 	transform: translate3d(0, calc(var(--scrollTop) / 1.095), 0);
 	transition: var(--transition);
@@ -313,6 +307,6 @@ a,u {
 		/* left: calc(var(--index) / 1); */
 		/* width: 334px; */
 		width: calc(var(--index) * 30);
-		top: 500px;
+		top: 300px;
 	  }
 }
